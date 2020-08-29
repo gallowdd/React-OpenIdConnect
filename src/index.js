@@ -127,7 +127,7 @@ Authenticate.propTypes = {
     /**
     * @property {func} checkAuthentication optional function to check authentication.
     */
-    checkAuthentication:
+    checkAuthentication: propTypes.func
 };
 
 export default Authenticate;
