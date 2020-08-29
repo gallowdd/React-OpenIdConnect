@@ -123,7 +123,11 @@ Authenticate.propTypes = {
     /**
     * @property {func} renderNotAuthenticated Renderprop used to render output when user is not authenticated
     */
-    renderNotAuthenticated: propTypes.func.isRequired
+    renderNotAuthenticated: propTypes.func.isRequired,
+    /**
+    * @property {func} checkAuthentication optional function to check authentication.
+    */
+    checkAuthentication:
 };
 
 export default Authenticate;
