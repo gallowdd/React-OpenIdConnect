@@ -44,7 +44,7 @@ class Authenticate extends Component {
             return this.props.checkAuthentication();
         }
 
-        return window.location.href.includes("#id_token");
+        return window.location.href.includes("#id_token") || window.location.href.includes("#access_token");
     }
 
     onUserLoaded(user) {
